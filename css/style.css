@@ -19,58 +19,51 @@
 }
 
 .container h1{
-  padding: 40px;
+  padding: 18px;
   text-align: center;
   font-size: 80px;
-  text-shadow: 1px 1px 2px gray;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
   text-transform: uppercase;
   color: white;
 }
 
 .row {
-  
-  margin: 40px 0;
+1 margin: 40px 0;
   text-align: center;
+
 }
 
-.struttura{
-  float: left;
-  background-color: white;
-  width: 20%;
-  height: 350px;
+.row{
+  height: 400px;
+  margin-bottom: 40px;
+}
+
+
+main .card{
+  position: relative;
   display: inline-block;
-  cursor: pointer;
+  width: 20%;
+  margin: 1%;
+  padding: 20px 20px 40px;
   border-radius: 10px;
-  border: 1px solid black;
-  margin-left: 4%;  
-}
-
-
-.cartacoperta{
+  overflow: hidden;
+  box-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
   background-image: url(../img/pattern.png);
   background-size: contain;
-  /* display: none; */
+  background-color: white;
+  cursor: pointer;
+}
+
+.card img{
+  /* position: absolute; */
+  width: 100%; 
+  z-index: 1;
 }
 
 
-/* .carta1{
-  background-image: url(../img/noun_air_balloon_3134741.png);
-  background-size: contain;
+.card-text{
+  font-size: 40px;
+  position: absolute;
+  bottom: 20px;
+  left: 25%;
 }
-
-.carta2{
-  background-image: url(../img/noun_air_balloon_3134741.png);
-  background-size: contain;
-}
-
-.carta3{
-  background-image: url(../img/noun_air_balloon_3134741.png);
-  background-size: contain;
-}
-
-.carta4{
-  background-image: url(../img/noun_air_balloon_3134741.png);
-  background-size: contain;
-}
- */
-
